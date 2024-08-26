@@ -1,0 +1,66 @@
+/* Card container styling */
+.card-container {
+  padding: 20px;
+  background-color: #17193a; /* Dark background color for card container */
+  color: #fff; /* Light text color for contrast */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better separation */
+}
+
+/* Table styling */
+.table.shoe {
+  width: 75%; /* Set the width of the table to 75% of its container */
+  margin-left: auto; /* Aligns the table to the right of the container */
+  margin-top: 20px; /* Adds a top margin of 20px */
+  border-collapse: collapse; /* Optional: for better table styling */
+  background-color: #17193a; /* Dark background color for table */
+  color: #fff; /* Light text color for table */
+}
+
+/* Table headers and cells */
+.table.shoe th, .table.shoe td {
+  padding: 10px;
+  text-align: left; /* Ensure table content is left-aligned */
+}
+
+/* Table header background color */
+.table.shoe thead {
+  background-color: #0a0404; /* Slightly different dark shade for header */
+}
+
+/* Text color classes */
+.text-warning {
+  color: #ffc107; /* Bright yellow color for warnings */
+}
+
+.text-danger {
+  color: #dc3545; /* Bright red color for errors */
+}
+
+.text-info {
+  color: #060e0f; /* Dark teal color for informational text */
+}
+
+/* Search input styling */
+.search {
+  width: 50%;
+  margin-left: 280px; /* Adjust to center the search input */
+  margin-right: 300px; /* Adjust to center the search input */
+  padding: 10px; /* Padding for better usability */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #eeeeee; /* Border color to match dark theme */
+  background-color: #e6d6d6; /* Dark background for the input */
+  color: #0c0b0b; /* Light text color inside the input */
+}
+
+/* Delete button styling */
+.delete {
+  width: 35%;
+  margin-left: 200px; /* Adjust margin as needed */
+  margin-top: 10px;
+  padding: 10px; /* Padding for better usability */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #444; /* Border color to match dark theme */
+  background-color: #222; /* Dark background for button */
+  color: #fff; /* Light text color for button */
+}

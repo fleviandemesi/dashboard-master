@@ -1,0 +1,68 @@
+/* labtests.css */
+
+.lab-tests-cont {
+    
+    
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
+  }
+  
+  thead {
+    background-color: #4CAF50; /* Dark green background for the header */
+    color: white;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50; /* Same color for header */
+    color: white; /* White text color for header */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; /* Slightly darker gray for hovered rows */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333; /* Dark gray color for the heading */
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555; /* Slightly lighter gray for loading text */
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .loading-table {
+    opacity: 0.5; /* Make table slightly transparent when loading */
+  }
+  .form-control{
+    margin-left: 25%;
+    background-color: rgb(90, 90, 231);
+  }
+  
+  
+  

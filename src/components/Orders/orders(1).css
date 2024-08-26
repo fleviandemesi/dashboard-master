@@ -1,0 +1,53 @@
+/* Main content container styling */
+.main-content {
+  padding: 20px;
+  background-color: #17193a; /* Dark background color for main content */
+  color: #fff; /* Light text color for contrast */
+}
+
+/* Search input styling */
+.search {
+  margin-bottom: 20px; /* Space below the search input */
+  width: 45%; /* Adjusted width for the search input */
+  margin-top: 20px;
+  padding: 10px; /* Padding for better usability */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #444; /* Border color to match dark theme */
+  background-color: #faf2f2; /* Dark background for the input */
+  color: #030101; /* Light text color inside the input */
+}
+
+/* Table styling */
+.table7 {
+  margin-top: 200px; /* Moves the table down by 200px */
+  background-color: #17193a; /* Dark background color for table */
+  color: #fff; /* Light text color for table */
+}
+
+.table.table-striped {
+  width: 75%; /* Set the width of the table to 75% of its container */
+  margin-left: auto; /* Aligns the table to the right of the container */
+  border-collapse: collapse; /* Optional: for better table styling */
+}
+
+.table.table-striped th, .table.table-striped td {
+  padding: 10px;
+  text-align: left; /* Ensure table content is left-aligned */
+}
+
+.table.table-striped thead {
+  background-color: #444; /* Slightly lighter dark background for table header */
+}
+
+/* Text color classes */
+.text-warning {
+  color: #ffc107; /* Bright yellow color for warnings */
+}
+
+.text-danger {
+  color: #dc3545; /* Bright red color for errors */
+}
+
+.text-info {
+  color: #17a2b8; /* Bright cyan color for informational text */
+}

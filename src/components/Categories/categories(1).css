@@ -1,0 +1,99 @@
+/* Card styling */
+.card {
+  padding-top: 40px;
+  background-color: #17193a; /* Dark background color for the card */
+  color: #fff; /* Light text color for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0px 0; /* Remove auto margins and set vertical margins */
+  width: 80%; /* Set the card width to 75% of its container */
+  max-width: 1200px; /* Optionally, limit the maximum width of the card */
+  text-align: right; /* Align text and inline content to the right */
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  align-items: flex-start; /* Align content to the start (left) of the card */
+  margin-left: 325px; /* Align the card to the left */
+  margin-right: 800px;
+}
+
+/* Table styling */
+.table {
+  width: 100%; /* Full width within the card */
+  margin-top: 20px; /* Adjust margin to ensure table is properly spaced */
+  border-collapse: collapse;
+  color: #fff; /* Light text color for table */
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left; /* Ensures table content is left-aligned */
+}
+
+.table thead {
+  background-color: #3d4bce; /* Slightly lighter dark background for table header */
+}
+
+/* Text color classes */
+.text-warning {
+  color: #ffc107; /* Keep warning color as is for visibility */
+}
+
+.text-danger {
+  color: #dc3545; /* Keep danger color as is for visibility */
+}
+
+.text-success {
+  color: #28a745; /* Keep success color as is for visibility */
+}
+
+.text-info {
+  color: #17a2b8; /* Keep info color as is for visibility */
+}
+
+/* Edit Category Form styling */
+.edit-category-form {
+  margin-top: 20px; /* Space between card and form */
+  padding: 20px;
+  background-color: #fdfdfd; /* Dark background color for the form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(14, 10, 10);
+  width: 60%; /* Full width within the card */
+margin-left: 330px; /* Ensures the form doesn't stretch too wide */
+   /* Centers the form content */
+  color: #000000; /* Light text color for the form */
+}
+.h3{
+  color: #000000;
+}
+
+.edit-category-form h3 {
+  margin-bottom: 20px;
+  color: #030303; /* Ensure the header text is light and visible */
+}
+
+.edit-category-form input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #666; /* Darker border for the input field */
+  margin-right: 10px;
+  color: #fff; /* Light text color for input */
+  background-color: #02063d; /* Dark background color for input */
+}
+
+.edit-category-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.edit-category-form .btn-dark {
+  background-color: #02063d; /* Dark button background */
+  color: #fff; /* Light text color for button */
+}
+
+.edit-category-form .btn-secondary {
+  background-color: #02063d; /* Secondary button color */
+  color: #fff; /* Light text color for button */
+}

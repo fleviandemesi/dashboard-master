@@ -1,0 +1,132 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #17193a; /* Dark background for the body */
+}
+
+/* Form container */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #121212; /* Slightly darker background for the form container */
+}
+
+/* Add Shoes Form */
+.add-shoes-form {
+  background-color: #17193a; /* Dark background for the form */
+  border-radius: 10px; /* Slightly larger border radius */
+  box-shadow: 0 4px 8px rgba(221, 10, 10, 0.3); /* Stronger shadow for better depth */
+  padding: 30px; /* Increased padding for a more spacious layout */
+  width: 100%;
+  max-width: 500px; /* Reduced maximum width for a more compact form */
+}
+
+/* Heading */
+.add-shoes-form h2 {
+  margin-bottom: 25px; /* Increased margin for better spacing */
+  font-size: 26px; /* Larger font size for the heading */
+  color: #ffffff; /* Light gray color for the text */
+  text-align: center;
+}
+
+/* Response messages */
+.response {
+  margin-bottom: 20px; /* Increased margin for better spacing */
+  padding: 15px; /* Increased padding for better readability */
+  border-radius: 6px; /* Larger border radius for a softer look */
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px; /* Larger font size for response messages */
+}
+
+.response.loading {
+  background-color: #881c1c; /* Darker background for loading */
+  color: #ddd; /* Light text color for contrast */
+}
+
+.response.success {
+  background-color: #2e7d32; /* Green background for success */
+  color: #ffffff; /* White text color for readability */
+}
+
+.response.failure {
+  background-color: #c62828; /* Red background for failure */
+  color: #ffffff; /* White text color for readability */
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600; /* Bolder font for labels */
+  margin-bottom: 8px; /* Increased margin for labels */
+  color: #e0e0e0; /* Light gray color for labels */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px; /* Slightly larger padding for inputs */
+  border: 1px solid #f7f4f4; /* Dark border color */
+  border-radius: 6px; /* Larger border radius */
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #ffffff; /* White text color */
+  background-color: #17193a; /* Dark background for input fields */
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px; /* Slightly taller minimum height */
+}
+
+/* Submit button */
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff; /* Primary blue color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 6px; /* Larger border radius */
+  font-size: 18px; /* Larger font size for the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly scale up on hover for effect */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .add-shoes-form {
+    padding: 20px; /* Reduced padding on smaller screens */
+    max-width: 100%;
+  }
+
+  .add-shoes-form h2 {
+    font-size: 22px; /* Slightly smaller font size on smaller screens */
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 14px; /* Smaller font size on smaller screens */
+  }
+
+  .submit-button {
+    padding: 12px; /* Smaller padding on smaller screens */
+    font-size: 16px; /* Smaller font size on smaller screens */
+  }
+}

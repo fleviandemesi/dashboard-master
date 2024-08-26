@@ -1,0 +1,109 @@
+/* Sidebar */
+.sidebar {
+    background-image: url('../../images/-473Wx593H-466709232-white-MODEL.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire sidebar */
+    background-position: center; /* Center the image within the sidebar */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-color: #17193a; /* Fallback color in case the image fails to load */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+    width: 25%;
+    left: 0;
+    padding-top: 10px;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+}
+
+/* Sidebar Top */
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Sidebar Brand */
+.sidebar-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-brand span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sidebar-brand svg {
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 1.5px;
+}
+
+/* Sidebar Links */
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-links ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+.sidebar-links ul li {
+    text-align: left;
+    border-radius: 0.5rem;
+    margin: 5px;
+    padding: 0.5rem;
+}
+
+.sidebar-links ul li:hover {
+    background-color: black;
+}
+
+.sidebar-links a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Style React Icons inside Sidebar */
+.sidebar-links svg {
+    fill: red;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Sidebar Bottom */
+.sidebar-bottom {
+    width: 90%;
+    background-color: rgb(189, 71, 110);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sidebar-bottom svg {
+    fill: white;
+    font-size: 2rem;
+}
+
+.sidebar-bottom span {
+    color: white;
+    margin-top: 5px;
+}
+
+/* Logout */
+.logout {
+    background-color: red;
+    margin: 30px;
+}

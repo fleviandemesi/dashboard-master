@@ -1,0 +1,37 @@
+.my-booking-section {
+    padding: 20px;
+  }
+  
+  .bookings-table {
+    width: 75%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .bookings-table th, .bookings-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .bookings-table th {
+    background-color: #173383;
+  }
+  
+  .loading, .error, .no-bookings {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .loading {
+    color: #007bff;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  
+  .no-bookings {
+    color: #1e80d6;
+  }
+  
