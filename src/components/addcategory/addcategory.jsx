@@ -53,7 +53,7 @@ const AddCategory = () => {
       <h1>Add Category</h1>
 
                         <div className="card-body">
-                            {loading && <div className="text-warning"> Please Wait..</div>}
+                            {loading && <div className="text-light"> Please Wait..</div>}
                             {success && <div className="text-success"> {success}</div>}
                             {failure && <div className="text-danger"> {failure}</div>}
                             <input type="text" placeholder="Enter Test Name" value={category_name}

@@ -6,7 +6,7 @@
 
     // Create an axios instance
     const axiosInstance = axios.create({
-    baseURL: 'https://elegwa.pythonanywhere.com/api', // Replace with your API's base URL
+    baseURL: 'https://Elegwa.pythonanywhere.com/api', // Replace with your API's base URL
     timeout: 30000, // Adjust the timeout as needed (in milliseconds)
     headers: {
         'Content-Type': 'application/json', // Set the default content type for requests

@@ -9,6 +9,7 @@
   
   table {
     width: 75%;
+    margin-top: 40px;
     border-collapse: collapse;
     margin: 20px 0;
     background-color: #fff; /* White background for the table */
